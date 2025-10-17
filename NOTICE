@@ -1,0 +1,14 @@
+AffiniPy: Automated Molecular Docking and Scoring Pipeline
+Copyright 2025 Sarthak
+
+This product includes software developed under the Apache License, Version 2.0.
+See the LICENSE file or visit http://www.apache.org/licenses/LICENSE-2.0
+for details.
+
+AffiniPy integrates several open-source tools, including:
+- RDKit (BSD license)
+- MDAnalysis (GPL-compatible)
+- Meeko and AutoDock Vina (Apache 2.0)
+- Dimorphite-DL (MIT license)
+- sascorer (MIT license)
+- pdb2pqr and Open Babel (varied OSI-approved licenses)
