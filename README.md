@@ -49,7 +49,7 @@ obabel -V
 pdb2pqr --version
 ```
 
-> 🧠 *Tested on Linux (Ubuntu 22.10), Python 3.11, RDKit 2025.03, and AutoDock Vina 1.2.7.*
+> 🧠 *Tested on Linux (Ubuntu 22.10), Python 3.11, RDKit 2025.03, and AutoDock Vina 1.2.7. Windows compatibility not tested yet.*
 
 ---
 
