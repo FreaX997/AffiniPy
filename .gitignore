@@ -1,0 +1,34 @@
+# ---- Python & Jupyter ----
+__pycache__/
+*.py[cod]
+*.pyo
+.ipynb_checkpoints/
+
+# ---- Environments ----
+.env/
+.venv/
+*.env
+*.yml
+*.yaml
+
+# ---- System & Logs ----
+.DS_Store
+Thumbs.db
+*.tmp
+
+# ---- Output Data ----
+Docking/
+Prep/
+Data/
+example_output/
+example_data/
+
+# ---- Misc ----
+*.zip
+*.tar.gz
+*.txt
+*.xlsx
+*.pdbqt
+*.pdf
+*.docx
+Stats_Test.ipynb
