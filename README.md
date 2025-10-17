@@ -178,10 +178,6 @@ AffiniPy ranks ligands by a **Composite Score** integrating binding energy, effi
 | SA Penalty | 0.10 | Lower is better |
 | Lipinski / Veber Bonus | +0.05 each | Pass increases score |
 
-\[
-\text{Composite} = (0.45×Docking_{Norm}) + (0.30×LE_{Norm}) − (0.15×SA_{Norm}) − (0.10×SA_{Penalty}) + Bonus
-\]
-
 > 💡 The composite score highlights ligands that balance strong binding, efficiency, and synthetic feasibility.  
 > Users can manually adjust the weights in **Code Cell 11** to re-prioritize parameters.
 
