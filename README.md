@@ -175,7 +175,6 @@ AffiniPy ranks ligands by a **Composite Score** integrating binding energy, effi
 | Docking Score | 0.45 | Lower is better |
 | Ligand Efficiency | 0.30 | Higher is better |
 | Synthetic Accessibility | 0.15 | Lower is better |
-| SA Penalty | 0.10 | Lower is better |
 | Lipinski / Veber Bonus | +0.05 each | Pass increases score |
 
 > 💡 The composite score highlights ligands that balance strong binding, efficiency, and synthetic feasibility.  
