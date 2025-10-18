@@ -1,3 +1,4 @@
+[AffiniPy Logo](/home/freax/HTVS/DDDD_Presentation_Build/Malonate_test/Logo.png)
 # 🧬 AffiniPy: Automated Molecular Docking and Scoring Pipeline  
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
