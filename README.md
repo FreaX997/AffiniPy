@@ -7,13 +7,17 @@
 ![Status](https://img.shields.io/badge/Status-Active-brightgreen)
 ![Conda](https://img.shields.io/badge/Conda-Compatible-blueviolet)
 ![AutoDock Vina](https://img.shields.io/badge/Docking-AutoDock%20Vina-orange)
+![RDKit](https://img.shields.io/badge/RDKit-integrated-yellow?style=flat-square)
+![Meeko](https://img.shields.io/badge/Meeko-Receptor%20Prep%20✅-orange?style=flat-square)
+![pdb2pqr](https://img.shields.io/badge/pdb2pqr-pH%20Protonation-blueviolet?style=flat-square)
+![Bundled Vina](https://img.shields.io/badge/AutoDock%20Vina-Bundled%20🧩-informational?style=flat-square)
 
 ---
 
 ## 🧠 Overview  
 
 **AffiniPy** is an automated, end-to-end molecular docking and scoring pipeline built in Python.  
-It integrates **RDKit**, **Dimorphite-DL**, **Meeko**, **pdb2pqr**, **AutoDock Vina**, and **MDAnalysis** to streamline reproducible protein–ligand virtual screening, descriptor profiling, and composite scoring.  
+It integrates **RDKit**, **Dimorphite-DL**, **Meeko**, **pdb2pqr**, **MDAnalysis** and a bundled **AutoDock Vina** binary to streamline reproducible protein–ligand virtual screening, descriptor profiling, and composite scoring.  
 
 AffiniPy automates everything from file preparation to ranked ligand output — ideal for rapid structure-based prioritization in drug discovery workflows.
 
@@ -21,7 +25,7 @@ AffiniPy automates everything from file preparation to ranked ligand output — 
 
 ## ✨ Key Features  
 
-- ⚙️ Automated protein and ligand preparation  
+- ⚙️ Automated protein and ligand preparation with unified charge and atom typing models
 - 🧪 Protonation with **Dimorphite-DL**  
 - 🚀 Docking via **AutoDock Vina** (parallelized using Joblib)  
 - 🧮 Descriptor profiling using **RDKit** (Lipinski, Veber, SA, LE)  
@@ -45,7 +49,6 @@ conda activate Informatics
 
 Verify that the required external tools are available:  
 ```bash
-vina --help
 obabel -V
 pdb2pqr --version
 ```
@@ -61,6 +64,8 @@ This folder should include:
 
 ```
 AffiniPy/
+├─ bin/
+│   └─ vina
 ├── AffiniPy.ipynb
 ├── sascorer.py
 ├── fpscores.pkl.gz          # companion file for sascorer
@@ -204,6 +209,8 @@ Key libraries and tools include:
 | Descriptor | sascorer |
 | Utilities | openbabel, pdb2pqr, joblib, numpy, openpyxl |
 
+> 🧩 AutoDock Vina is shipped as a precompiled binary inside the /bin folder for portable, reproducible runs. No external installation required.
+
 ---
 
 ## 📄 License  
@@ -225,7 +232,7 @@ If you use **AffiniPy** in your research, please cite:
 
 ## ⚠️ Current Limitations & Planned Improvements  
 
-- Requires pre-cleaned PDB structures (manual Dock Prep in Chimera recommended)  
+- Protein structures are auto-prepared via pdb2pqr + Meeko, but unusual cofactors or metals may still require manual curation.  
 - Grid box must currently be set manually for best reliability  
 - Composite scoring weights are static (can be changed manually in code)  
 - Designed and tested on Linux systems; Windows compatibility untested  
