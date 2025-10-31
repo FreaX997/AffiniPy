@@ -40,3 +40,4 @@ AffiniPy.py
 *.mol
 *.mol2
 *.log
+*.pqr
