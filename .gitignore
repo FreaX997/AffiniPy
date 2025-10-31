@@ -28,8 +28,15 @@ example_data/
 *.tar.gz
 *.txt
 *.xlsx
-*.pdbqt
 *.pdf
 *.docx
 Stats_Test.ipynb
 AffiniPy.py
+
+# ----Molecule Data----
+*.pdbqt
+*.sdf
+*.pdb
+*.mol
+*.mol2
+*.log
