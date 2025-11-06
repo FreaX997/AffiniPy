@@ -324,9 +324,7 @@ dependencies:
       - mols2grid==2.0.0
       - pyarrow==21.0.0
       - pystow==0.7.9
-      - rcsb-api==1.4.0
       - rustworkx==0.17.1
       - useful-rdkit-utils==0.91
-      - vina==1.2.7
       - widgetsnbextension==3.6.10
 prefix: /home/freax/miniconda3/envs/Informatics
