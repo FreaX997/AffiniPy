@@ -8,7 +8,7 @@ __pycache__/
 .env/
 .venv/
 *.env
-*.yml
+*Win.yml
 *.yaml
 
 # ---- System & Logs ----
