@@ -26,17 +26,19 @@ dependencies:
   - brotli-python=1.1.0=py311h1ddb823_4
   - bzip2=1.0.8=hda65f42_8
   - c-ares=1.34.5=hb9d3cd8_0
-  - ca-certificates=2025.8.3=hbd8a1cb_0
+  - ca-certificates=2025.11.12=hbd8a1cb_0
   - cached-property=1.5.2=hd8ed1ab_1
   - cached_property=1.5.2=pyha770c72_1
   - cairo=1.18.4=h3394656_0
-  - certifi=2025.8.3=pyhd8ed1ab_0
+  - certifi=2025.11.12=pyhd8ed1ab_0
   - cffi=2.0.0=py311h5b438cf_0
   - cftime=1.6.4=py311h0372a8f_2
   - charset-normalizer=3.4.3=pyhd8ed1ab_0
   - colorama=0.4.6=pyhd8ed1ab_1
   - comm=0.2.3=pyhe01879c_0
   - contourpy=1.3.3=py311hdf67eae_2
+  - cuda-nvrtc=12.9.86=hecca717_1
+  - cuda-version=12.9=h4f385c5_3
   - cycler=0.12.1=pyhd8ed1ab_1
   - cyrus-sasl=2.1.28=hd9c7081_0
   - dbus=1.16.2=h3c4dab8_0
@@ -117,6 +119,7 @@ dependencies:
   - libcblas=3.9.0=36_h0358290_openblas
   - libclang-cpp21.1=21.1.0=default_h99862b1_1
   - libclang13=21.1.0=default_h746c552_1
+  - libcufft=11.4.1.4=hecca717_1
   - libcups=2.3.3=hb8b1518_5
   - libcurl=8.14.1=h332b0f4_0
   - libdeflate=1.24=h86f0d12_0
@@ -192,10 +195,14 @@ dependencies:
   - notebook=7.4.5=pyhd8ed1ab_0
   - notebook-shim=0.2.4=pyhd8ed1ab_1
   - numpy=2.3.3=py311h2e04523_0
+  - ocl-icd=2.3.3=hb9d3cd8_0
+  - ocl-icd-system=1.0.0=1
+  - opencl-headers=2025.06.13=h5888daf_0
   - openjpeg=2.5.4=h55fea9a_0
   - openldap=2.6.10=he970967_0
+  - openmm=8.4.0=py311h1c77f12_0
   - openpyxl=3.1.5=py311h534898f_2
-  - openssl=3.5.4=h26f9b46_0
+  - openssl=3.6.0=h26f9b46_0
   - overrides=7.7.0=pyhd8ed1ab_1
   - packaging=25.0=pyh29332c3_1
   - pandas=2.3.2=py311hed34c8f_0
@@ -204,6 +211,7 @@ dependencies:
   - patsy=1.0.1=pyhd8ed1ab_1
   - pcre2=10.46=h1321c63_0
   - pdb2pqr=3.6.1=pyhd8ed1ab_1
+  - pdbfixer=1.12=pyhd8ed1ab_0
   - pexpect=4.9.0=pyhd8ed1ab_1
   - pickleshare=0.7.5=pyhd8ed1ab_1004
   - pillow=11.3.0=py311h98278a2_3
@@ -247,6 +255,7 @@ dependencies:
   - rfc3986-validator=0.1.1=pyh9f0ad1d_0
   - rfc3987-syntax=1.1.0=pyhe01879c_1
   - rlpycairo=0.4.0=pyh6c17108_0
+  - rocm-core=7.0.2=h54a6638_0
   - rpds-py=0.27.1=py311h902ca64_1
   - scikit-learn=1.7.2=py311hc3e1efb_0
   - scipy=1.16.2=py311h1e13796_0
