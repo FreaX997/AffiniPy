@@ -15,6 +15,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 *.tmp
+.vscode/settings.json
 
 # ---- Output Data ----
 Docking/
@@ -31,7 +32,7 @@ Example_Data/
 *.pdf
 *.docx
 Stats_Test.ipynb
-AffiniPy.py
+AffiniPy_Python_Script_Version.py
 
 # ----Molecule Data----
 *.pdbqt
@@ -41,3 +42,5 @@ AffiniPy.py
 *.mol2
 *.log
 *.pqr
+
+
